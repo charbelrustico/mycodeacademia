@@ -2,6 +2,7 @@
 
 int main() {
 
+    //Déclaration des variables
     int date, age;
 
     //Collecter l'année de naissance de l'utilisateur

@@ -10,10 +10,10 @@ int main() {
     
     //Conversion of Pesetas to Euros and Euro to Dollars
     amountEuros = amountPesetas / 166.386;
-    amountDollars = amountEuros * 1.31; //Extended of initial program to convert Euro result to Dollars
+    amountDollars = amountEuros * 1.31; //On étend le programme initialement prévu pour convertir les Pesetas en Euros, pour convertir aussi les Euros en Dollars.
     
     //Affichage du résultat
-    printf("\n Convertion of %.2f Pesetas to Euros = %.2f € \n Convertion of Euro to Dollars = %.2f $", amountPesetas, amountEuros, amountDollars);   
+    printf("\n Convertion of %.2f Pesetas to Euros = %.2f Euro \n Convertion of Euro to Dollars = %.2f $", amountPesetas, amountEuros, amountDollars);   
     
 
     return 0;
