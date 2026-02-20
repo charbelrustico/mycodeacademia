@@ -12,16 +12,16 @@ int main() {
         printf("\nValue %d : ",countValue+1);
         scanf("%d",&value);
 
-        //Stock to array in inverse order
-        numTab[20-countValue] = value; 
-        printf("\nnumTab[%d] = %d",20-countValue,numTab[20-countValue]);
-
-
-        countValue++;
+        if (value != 0) {
+            //Stock to array in inverse order
+            numTab[20 - countValue] = value;
+            //printf("\nnumTab[%d] = %d",20-countValue,numTab[20-countValue]);
+            countValue++;
+        }
+        /*DEBUG 
         printf("\ncountValue = %d",countValue);
-
         printf("\nvalue == 0 || countValue == 20 : %d\n",(value == 0) || (countValue == 20));
-        printf("\nvalue != 0 || countValue != 20 : %d\n",(value != 0) || (countValue != 20));
+        printf("\nvalue != 0 || countValue != 20 : %d\n",(value != 0) || (countValue != 20));*/
 
 
     } while ( (value!=0)&&(countValue!=20) );

@@ -26,7 +26,7 @@ int main()
         }
         
         tries++;
-    } while (tries < 5);
+    } while (userGuess != secretNumber && tries < 5);
     
     if (userGuess == secretNumber)
     {
